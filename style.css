@@ -663,7 +663,7 @@ footer {
 
     .services-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Two columns for tablets */
-        gap: 15px; /* Reduce gap between items */
+        gap: 15px;
     }
 
     .service-item {
@@ -802,6 +802,9 @@ footer {
 
     .services-grid {
         grid-template-columns: 1fr; /* Single column for mobile */
+        margin-right: 2%;
+        margin-left: 10%;
+
     }
 
 
