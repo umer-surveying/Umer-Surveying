@@ -313,6 +313,9 @@ nav a:hover {
 #courses {
     background-color: #24252217;
 }
+#courses a {
+    text-decoration: none;
+}
 
 .courses-container {
     display: flex;
