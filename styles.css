@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-  background-color: #463a3a71;
+  background-color: #535552 ;
   color: #000000;
   padding: 15px 20px;
   position: sticky;
@@ -39,8 +39,8 @@ header {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
 }
 
@@ -53,10 +53,12 @@ header {
 .header-text h1 {
   font-size: 1.5rem;
   margin-bottom: 5px;
+  color: #f9f9f9;
 }
 
 .header-text p {
   font-size: 0.9rem;
+  color: white;
 }
 
 /* Navigation */
@@ -93,7 +95,7 @@ nav.mobile.active {
 }
 
 nav a {
-  color: rgb(3, 3, 3);
+  color: rgb(255, 253, 253);
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
@@ -102,7 +104,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #0004ff;
+  color: #00d4caee;
   transform: translateY(-2px);
 }
 
@@ -117,7 +119,7 @@ nav a:hover {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background-color: #251c1c;
+  background-color: #fff8f8;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
@@ -282,6 +284,10 @@ footer {
 
   .header-text p {
     font-size: 0.8rem;
+  }
+
+  .logo {
+    width: 80px;
   }
 
   .project-details h2 {

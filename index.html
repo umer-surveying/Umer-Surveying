@@ -11,23 +11,37 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="main-header">
-        <div>
-            <img src="images/UMER SURVEYING.png" alt="Umer Surveying Logo" class="logo">
-        </div>
-        <div class="header-text">
+    <header>
+        <div class="main-header">
+          <img src="images/UMER SURVEYING.png" alt="Umer Surveying Logo" class="logo">
+          <div class="header-text">
             <h1>Umer Surveying</h1>
             <p>Expert Surveying Solutions and Training</p>
-        </div>
-        <nav>
+          </div>
+          <!-- Hamburger Menu -->
+          <div class="hamburger">
+            
+          </div>
+          <!-- Desktop Navigation -->
+          <nav>
+            <a href="project.html">Projects</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#courses">Courses</a>
+            <a href="index.html#abouts">About</a>
+            <a href="index.html#contactForm">Contact</a>
+            <a href="blog.html">Blogs</a>
+          </nav>
+          <!-- Mobile Navigation -->
+          <nav class="mobile">
+            <a href="project.html">Projects</a>
             <a href="#services">Services</a>
             <a href="#courses">Courses</a>
-            <a href="#abouts">About</a>
-            <a href="#contactForm">Contact Us</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
             <a href="blog.html">Blogs</a>
-            <a href="project.html">Projects</a>
-        </nav>
-       
+          </nav>
+        </div>
+      
     </header>
 
     <section id="hero" class="hero">
@@ -52,7 +66,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying provides precise topographic mapping using advanced instruments and GPS technology. We integrate GIS and remote sensing for accurate terrain analysis.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +79,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying offers accurate property valuation using advanced surveying techniques. Our assessments ensure reliable market value estimation for real estate and development.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +92,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying offers expert real estate consultancy, providing market analysis, property valuation, and investment guidance for informed decision-making.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -91,7 +105,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying provides precise quantity estimation for construction projects, ensuring accurate material takeoffs, cost analysis, and resource planning.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -104,7 +118,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying delivers accurate cost estimation for construction projects, ensuring precise budgeting, material costing, and financial planning.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +131,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying offers expert land dispute resolution services, providing precise boundary surveys, legal mapping, and documentation to resolve property conflicts.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -130,7 +144,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying specializes in KML/KMZ map formatting, converting spatial data into accurate, GIS-compatible files for seamless mapping and analysis.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +157,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying provides precise agricultural land measurement using advanced surveying and GIS technology for accurate area calculation and land planning.</p>
-                                <a href="#aboutd" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +170,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying creates precise contour maps using advanced surveying and GIS technology, providing detailed elevation data for land development and analysis.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -169,7 +183,7 @@
                             </div>
                             <div class="service-item-back">
                                 <p>Umer Surveying offers accurate residential land measurement using advanced surveying tools, ensuring precise boundary mapping and area calculation.</p>
-                                <a href="#abouts" class="cta-button">Learn More</a>
+                                <a href="#contactForm" class="cta-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -239,6 +253,7 @@
     
 
     <form id="contactForm">
+        <h1>Contact Us</h1>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
         
