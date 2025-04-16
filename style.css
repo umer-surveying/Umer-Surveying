@@ -477,7 +477,7 @@
     }
 
     .founder-card {
-        background-color: rgb(196, 203, 208);
+        background-color: rgb(211, 211, 211);
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
@@ -509,14 +509,14 @@
     }
 
     .founder-title {
-        color: var(--secondary);
+        color: #004fbf;
         font-weight: 600;
         margin-bottom: 1rem;
     }
 
     .founder-description {
         text-align: center;
-        color: #555;
+        color: var(--primary);
     }
 
     /* Contact Section */
@@ -847,7 +847,7 @@
 
     @media screen and (max-width: 768px) {
         .main-header {
-            padding: 0.8rem 1.5rem;
+            padding: 0.8rem 1.1rem;
         }
 
         .desktop-nav {
