@@ -944,7 +944,7 @@
         }
     }
 
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 480px) {
         .blog-body {
             padding-top: 20%;
         }
@@ -961,19 +961,19 @@
             font-size: 0.9em;
         }
 
-        .logo {
-            width: 45px;
-            height: 45px;
-        }
-
         .header-text h1 {
-            font-size: 1.3rem;
-            margin-right: 30px;
-            margin-left: 30px;
+            font-size: 1.2rem;
         }
 
         .header-text p {
             font-size: 0.8rem;
+            padding-left: 4px;
+        }
+
+        .logo {
+            width: 50px;
+            margin: 20px;
+
         }
 
         .section-title {
@@ -982,6 +982,7 @@
 
         .hero h1 {
             font-size: 2rem;
+            padding-top: 8vh;
         }
 
         .about-title,

@@ -17,7 +17,7 @@ body {
 }
 
 #hh {
-  padding-top: 10px;
+  padding-top: 10vh;
   text-align: center;
 }
 
@@ -210,11 +210,11 @@ nav a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.project-details h2 {
+.project-details h2,h3 {
   color: #4b4b4b;
   text-align: center;
   margin-bottom: 15px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .project-details p {
@@ -229,6 +229,10 @@ nav a:hover {
   margin: 20px auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#caption {
+  text-align: center;
 }
 
 /* Footer */
